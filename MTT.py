@@ -55,5 +55,6 @@ try:
             browser.back()
             print(code_list[i] + " nicht eingelöst")
         i += 1
+        time.sleep(5)
 finally:
     browser.close()
